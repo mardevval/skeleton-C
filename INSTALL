@@ -1,0 +1,9 @@
+# INSTALL
+
+Instructions for installation, typically:
+
+.configure
+make
+make install
+
+

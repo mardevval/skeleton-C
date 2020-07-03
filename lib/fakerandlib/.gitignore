@@ -1,0 +1,10 @@
+# Ignore bin and executables
+bin/*
+build/*
+
+# Ignore external dependencies (autopopulated during build)
+external/*
+
+# Ignore Mac specific files
+.DS_Store
+

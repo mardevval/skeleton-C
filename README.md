@@ -17,7 +17,7 @@ The final compiled user executable, library (.so), or module (.ko) is put here
 A special directory that should not be considered part of the source of the project. Used for storing ephemeral build results, must not be checked into source control (use ignore option). This folder contains all object files, and the content is removed on a clean.
 
 ## config
-In case the application requires it, here you find spoecific configuration files for compile-time (not to be confused with the app's own config file, e.g., in /etc/appname).
+In case the application requires it, here you find specific configuration files for compile-time (not to be confused with the app's own config file, e.g., in /etc/appname).
 
 ## data
 Directory containing non-source code aspects of the project. This might include graphics, data sets and markup files.
@@ -39,7 +39,7 @@ The extras/ directory is designated for containing additional submodules for the
 Directory for all the public .h header files. These are basically APIs, so they are only here in this directory if they are relevant for the end user. If they contain function prototypes used only internally by the application they should not go here but rather somewhere inside /src. May be present or not. Also, may be omitted for projects that do not distinguish between private/public headers.
 
 ## lib
-Put submodules here. A submodule is basically a nested project, with its own /src and /include directories etc (but build and compile scripts, if present, will not be used). In theory could be linked to another git project.
+Put submodules here. A submodule is basically a nested project, with its own /src and /include directories etc (but build and compile scripts, if present, will not be used). In theory could be linked to another git project but in that case external/ is usually more appropriate.
 
 ## src
 Main compilable source location. In the presence of include/, also contains private headers.

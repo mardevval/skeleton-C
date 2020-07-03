@@ -1,6 +1,6 @@
 # skeleton-C
 
-Just an empty skeleton for a C project
+This is an empty skeleton for a needlessly complex C project
 
 This file should be written in Markdown
 
